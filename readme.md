@@ -43,7 +43,7 @@ The Flask app should now be running in a Docker container and accessible at http
 - Method: POST
 - URL: http://localhost:5000/receipts/process
 - Body: Choose raw and JSON, then input a receipt JSON, for example:
-```
+```json
 {
   "retailer": "Target",
   "purchaseDate": "2022-01-01",
